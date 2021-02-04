@@ -37,6 +37,8 @@ public class Home_Cookie extends HttpServlet {
 		out.print("<a href='Home_Cookie\'>Home_Cookie</a><br>"+"<a href='Secound_page\'>Page 2</a><br>");
 		Cookie c = new Cookie("username",a);
 		
+		
+		
 		response.addCookie(c);
 		
 	}
