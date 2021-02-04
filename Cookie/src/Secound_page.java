@@ -36,6 +36,12 @@ public class Secound_page extends HttpServlet {
 		Cookie ck[] = request.getCookies();
 		
 		
+//		for more then 1 cookie
+//		for(int i = 0;i<ck.length;i++) {
+//			out.print("<br>"+ck[i].getName()+" "+ck[i].getValue());
+//		}
+		
+		
 
 		out.print("<a href='Home_Cookie\'>Home_Cookie</a><br>"+"<a href='Secound_page\'>Page 2</a><br>");
 		out.print("welcome Secound_page"+" " + ck[0].getValue());
